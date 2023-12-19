@@ -100,8 +100,11 @@ a {
 }
 
 button.sign-up {
-	padding: 8px 16px;
+	flex-shrink: 0;
+	padding: 8px 36px;
 	background-color: #3882F6;
+	font-size: 16px;
+	font-weight: bold;
 	color: #F9FAF8;
 	border: none;
 	border-radius: 8px;
@@ -199,5 +202,38 @@ button.sign-up {
 /* TESTIMONIAL END */
 
 /* CALL TO ACTION */
+
+.section.call-to-action {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-to-action .wrapper {
+	width: 55%;
+	background-color: #3882F6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	padding: 50px 150px;
+
+}
+
+.cta.left {
+	flex: 1;
+}
+
+.text.bigger {
+	font-size: 24px;
+	font-weight: bold;
+	color: #F9FAF8;
+	margin-bottom: 6px;
+}
+
+.call-to-action button {
+	border: 2px solid white;
+}
 
 /* CALL TO ACTION END */
