@@ -237,3 +237,20 @@ button.sign-up {
 }
 
 /* CALL TO ACTION END */
+
+/* FOOTER */
+
+.section.footer {
+	padding: 40px;
+	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+/* FOOTER END */
