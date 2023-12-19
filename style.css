@@ -6,4 +6,37 @@ body {
 *::before,
 *::after {
 	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #1F2937;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo,
+.header-links a {
+	color: #F9FAF8;
+}
+
+.header-logo {
+	font-size: 24px;
+}
+
+.header-links {
+	font-size: 18px;
+	display: flex;
+	gap: 28px;
 }
