@@ -21,6 +21,8 @@ a {
 	text-decoration: none;
 }
 
+/* HEADER */
+
 .header {
 	background-color: #1F2937;
 	padding: 20px;
@@ -43,3 +45,9 @@ a {
 	display: flex;
 	gap: 28px;
 }
+
+/* HEADER END */
+
+/* HERO */
+
+/* HERO END */
