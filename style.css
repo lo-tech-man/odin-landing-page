@@ -55,6 +55,7 @@ a {
 .header .links {
 	font-size: 18px;
 	display: flex;
+	align-items: center;
 	gap: 28px;
 }
 
