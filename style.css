@@ -3,8 +3,10 @@
 body {
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	/*
 	display: flex;
 	flex-direction: column;
+	*/
 }
 /*
 * {
@@ -167,4 +169,31 @@ button.sign-up {
 
 /* TESTIMONIAL */
 
+.section.testimonials {
+	height: 400px;
+	background-color: #E5E7EB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimony {
+	width: 815px;
+	display: flex;
+	flex-direction: column;
+}
+
+.testimony .quote {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.testimony .customer {
+	margin-top: 8px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+}
 /* TESTIMONIAL END */
